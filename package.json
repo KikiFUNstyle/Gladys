@@ -47,13 +47,16 @@
     "sails-memory": "~0.10.3",
     "sails-mysql": "~0.10.7",
     "sails-util-mvcsloader": "^0.1.7",
-    "serialport": "~1.7.1",
-    "speaker": "^0.2.5"
+    "serialport": "~6.0.0",
+    "speaker": "^0.2.5",
+    "snyk": "^1.83.0"
   },
   "scripts": {
     "start": "node app.js",
     "debug": "node debug app.js",
-    "test": "grunt test"
+    "test": "grunt test",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "main": "app.js",
   "repository": {
@@ -61,5 +64,6 @@
     "url": "git://github.com/root/gladys.git"
   },
   "author": "Pierre-Gilles Leymarie",
-  "license": "Creative Commons 3.0 France"
+  "license": "Creative Commons 3.0 France",
+  "snyk": true
 }
