@@ -1,0 +1,30 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - sails-mysql > waterline-cursor > lodash:
+        patched: '2018-07-03T02:33:19.199Z'
+    - barrels > lodash:
+        patched: '2018-07-03T02:33:19.199Z'
+    - sails-disk > waterline-criteria > lodash:
+        patched: '2018-07-03T02:33:19.199Z'
+    - sails-disk > waterline-cursor > lodash:
+        patched: '2018-07-03T02:33:19.199Z'
+    - sails-memory > lodash:
+        patched: '2018-07-03T02:33:19.199Z'
+    - sails-memory > waterline-criteria > lodash:
+        patched: '2018-07-03T02:33:19.199Z'
+    - sails-hook-hookloader > lodash:
+        patched: '2018-07-03T02:33:19.199Z'
+    - sails-util-mvcsloader > lodash:
+        patched: '2018-07-03T02:33:19.199Z'
+    - sails-hook-dev > lodash:
+        patched: '2018-07-03T02:33:19.199Z'
+    - sails > sails-disk > waterline-criteria > lodash:
+        patched: '2018-07-03T02:33:19.199Z'
+    - sails > sails-disk > waterline-cursor > lodash:
+        patched: '2018-07-03T02:33:19.199Z'
+    - sails > waterline > switchback > lodash:
+        patched: '2018-07-03T02:33:19.199Z'
