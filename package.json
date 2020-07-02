@@ -9,7 +9,7 @@
     "apriori": "~1.0.4",
     "async": "~0.9.0",
     "barrels": "~1.4.0",
-    "bcrypt": "0.8.0",
+    "bcrypt": "5.0.0",
     "crypto": "~0.0.3",
     "ejs": "~0.8.4",
     "google-contacts": "~0.0.2",
